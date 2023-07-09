@@ -1,0 +1,47 @@
+/*common css*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*header section css*/
+.header-section {
+  background-image: url('../images/banner/banner1.png');
+  width: 100%px;
+  height: 700px;
+  /* text-align: center;
+  align-items: center; */
+}
+
+.header-con {
+  text-align: center;
+  padding-top: 216px;
+  padding-right: 150px;
+}
+
+.header-title {
+  color: #151414;
+  text-align: right;
+  font-size: 65px;
+  font-weight: 700;
+}
+
+.header-descreption {
+  color: #444343;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 24px;
+}
+
+.header-btn{
+  text-align: right;
+}
+.header-btn button{
+  background: #F15B22;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 32px;
