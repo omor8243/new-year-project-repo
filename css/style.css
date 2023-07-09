@@ -36,12 +36,45 @@
   margin-top: 24px;
 }
 
-.header-btn{
+.header-btn {
   text-align: right;
 }
-.header-btn button{
+
+.header-btn button {
   background: #F15B22;
   padding: 15px;
   border-radius: 5px;
   border: none;
   margin-top: 32px;
+}
+
+/*about part css*/
+.about-part {
+  display: flex;
+  gap: 134px;
+}
+
+.about-con {
+  padding-top: 300px;
+}
+
+.about-heading {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+}
+.about-description {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 20px;
+  margin-bottom: 17px;
+}
+.about-list li{
+  list-style: none;
+}
+.about-list li i{
+  color: #16D887;
+  padding: 5px;
+}
