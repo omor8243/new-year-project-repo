@@ -63,6 +63,7 @@
   font-size: 40px;
   font-weight: 700;
 }
+
 .about-description {
   color: #444343;
   font-size: 16px;
@@ -71,10 +72,40 @@
   margin-top: 20px;
   margin-bottom: 17px;
 }
-.about-list li{
+
+.about-list li {
   list-style: none;
 }
-.about-list li i{
+
+.about-list li i {
   color: #16D887;
   padding: 5px;
+}
+
+/*my plan section css*/
+.my-plan-title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 55px;
+}
+.my-plan-con{
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  padding: 0 40px 0 30px;
+}
+.my-plan-icon-title {
+  color: #151414;
+  /* text-align: center; */
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.my-con-icon-sub-title {
+  color:#737272;
+  /* text-align: center; */
+  font-size: 25px;
+  font-weight: 500;
 }
