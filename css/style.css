@@ -139,3 +139,59 @@
   margin-top: 24px;
   border: none;
 }
+
+/*footer part css*/
+.footer-part {
+  display: flex;
+  justify-content: space-between;
+  background: #151414;
+}
+
+.footer-colum {
+  color: white;
+  padding: 130px 0 130px 230px;
+}
+
+.footer-heading {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.footer-des {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 16px 0 24px 0;
+}
+
+.footer-email, .footer-number {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+#footer-call{
+  margin: 16px 0 30px 0;
+}
+.footer-icon img{
+  padding: 10px;
+}
+.footer-colum-2{
+  padding: 130px 230px 330px 0;
+  color: white;
+}
+.header-form input{
+  padding: 10px;
+  margin-top: 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #151414;
+  color: white;
+}
+.footer-button{
+  padding: 10px;
+  background-color: white;
+  font-size: 20px;
+  color: #F15B22;
+  border-radius: 5px;
+  margin-top: 16px;
+}
